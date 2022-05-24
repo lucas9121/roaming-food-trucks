@@ -1,8 +1,8 @@
 .Card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1em;
     padding: 10px 0 0 30px;
+    width: 90%;
 }
 
 .Card > div {
@@ -26,10 +26,11 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    padding-left: 20px;
 }
 
 .Banner > p {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .BannerTitle {
